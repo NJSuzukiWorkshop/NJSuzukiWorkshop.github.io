@@ -59,14 +59,14 @@
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #1EAEDB;
+  background-color: #CFCFCF;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #CFCFCF;
+  background-color: #1EAEDB;
 }
 
 /* Fading animation */
