@@ -15,49 +15,19 @@
   font-size: 4.5rem;
 }
 
-.button-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.registerbtn {
-  display: block;
-  height: 50px;
-  width: 186px;
-  position: relative;
-  overflow: hidden;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: white;
-  font-size: 14px;
-  text-align: center;
-}
-.registerbtn:after {
-  position: absolute;
-  content: '';
-  display: inline-block;
+.register-button {
   background: #e55d87;
+  background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+  background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
   background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
-  height: 50px;
-  width: 372px;
-  z-index: -1;
-  -webkit-transform: translateX(-280px);
-  transform: translateX(-280px);
-  -webkit-transition: -webkit-transform 400ms ease-in;
-  transition: -webkit-transform 400ms ease-in;
-  transition: transform 400ms ease-in;
-  transition: transform 400ms ease-in, -webkit-transform 400ms ease-in;
-}
-.registerbtn:hover:after {
-  -webkit-transform: translateX(-200px);
-  transform: translateX(-200px);
-}
-.registerbtn span {
-  position: relative;
-  top: 16px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
