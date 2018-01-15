@@ -1,8 +1,8 @@
-.timer {
+#clockdiv {
   text-align: center;
 }
 
-.timer li {
+#clockdiv li {
   display: inline-block;
   font-size: 1.5em;
   list-style-type: none;
@@ -10,7 +10,7 @@
   text-transform: uppercase;
 }
 
-.timer li span {
+#clockdiv li span {
   display: block;
   font-size: 4.5rem;
 }
