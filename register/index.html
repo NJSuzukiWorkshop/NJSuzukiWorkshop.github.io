@@ -23,6 +23,7 @@
   <link rel="stylesheet prefetch" href="../css/normalize.min.css">
   <link rel="stylesheet prefetch" href="../css/typicons.min.css">
 
+  <link rel="stylesheet" href="css/style.css"/>
   <link rel="stylesheet" href="../css/style.css"/>
 
 </head>
@@ -59,11 +60,25 @@
     <div class="row">
       <h1>Register</h1>
       <div class="block"></div>
-      <p>To see the policy for the workshop, look <a href="../policy/">here</a>.</p>
+      <div class="timer">
+        <h3 id="countdown-title">Countdown to March 1, 2018</h3>
+          <ul>
+            <li><span id="days"></span>Days</li>
+            <li><span id="hours"></span>Hours</li>
+            <li><span id="minutes"></span>Minutes</li>
+            <li><span id="seconds"></span>Seconds</li>
+          </ul>
+      </div>
+    </div>
+    <div class="row">
+      <p>Please read the policy for the workshop <a href="../policy/">here</a>.</p>
+    </div>
+    <div class="row">
+      <h3>Register with Eventbrite Online</h3>
       <p>Registration with Eventbrite coming soon.</p>
     </div>
     <div class="row">
-      <h3><a href="assets/Registration-Form.pdf" download><span class="typcn typcn-download"></span></a></h3>
+      <h3>Register by Mail <a href="assets/Registration-Form.pdf" download><span class="typcn typcn-download"></span></a></h3>
       <object data="assets/Registration-Form.pdf" type="application/pdf" width="100%" height="500vh">
         <p>This browser does not support PDFs. Please download the PDF to view it.</p>
       </object>
@@ -86,7 +101,8 @@
 </footer>
 
     <script src="../js/jquery.min.js"></script>
-
+    
+    <script  src="js/index.js"></script>
     <script  src="../js/sticky.js"></script>
 
 </body>
