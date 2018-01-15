@@ -5,4 +5,4 @@ Disallow: /404.html
 Disallow: /contact/thank-you/
 Disallow: /teacher-opportunities/thank-you/
 
-# Sitemap: http://njsuzukiworkshop.com/sitemap.xml
+Sitemap: http://njsuzukiworkshop.com/sitemap.xml

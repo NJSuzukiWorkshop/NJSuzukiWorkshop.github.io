@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>http://njsuzukiworkshop.com/</loc>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/img/play-in-3.jpg</image:loc>
+        <image:title>Play-In</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/img/cello-group-class.jpg</image:loc>
+        <image:title>Cello Group Class</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/img/piano-master-class-2.jpg</image:loc>
+        <image:title>Piano Master Class</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/img/piano-master-class-3.jpg</image:loc>
+        <image:title>Piano Master Class</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/img/piano-master-class.jpg</image:loc>
+        <image:title>Piano Master Class</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/img/play-in-2.jpg</image:loc>
+        <image:title>Play-In</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/img/play-in.jpg</image:loc>
+        <image:title>Play-In</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/img/pretwinkle-class.jpg</image:loc>
+        <image:title>Pre-Twinkle Class</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/img/violin-group-class-2.jpg</image:loc>
+        <image:title>Violin Group Class</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/img/violin-group-class.jpg</image:loc>
+        <image:title>Violin Group Class</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/img/violin-masterclass.jpg</image:loc>
+        <image:title>Violin Master Class</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>http://njsuzukiworkshop.com/contact/</loc>
+  </url>
+  <url>
+    <loc>http://njsuzukiworkshop.com/staff/</loc>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/staff/img/william-bauer.jpg</image:loc>
+        <image:title>William Bauer</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/staff/img/carlough-carrol.jpg</image:loc>
+        <image:title>Carlough Carrol</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/staff/img/kathy-mchugh.jpg</image:loc>
+        <image:title>Kathy Mchugh</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/staff/img/beth-guerriero.jpg</image:loc>
+        <image:title>Beth Guerriero</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/staff/img/abigail-grifa.jpg</image:loc>
+        <image:title>Abigail Grifa</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/staff/img/nancy-modell.jpg</image:loc>
+        <image:title>Nancy Modell</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/staff/img/rebekah-waggoner.jpg</image:loc>
+        <image:title>Rebekah Waggoner</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://njsuzukiworkshop.com/staff/img/heather-lardin.jpg</image:loc>
+        <image:title>Heather Lardin</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>http://njsuzukiworkshop.com/teacher-opportunities/</loc>
+  </url>
+  <url>
+    <loc>http://njsuzukiworkshop.com/register/</loc>
+  </url>
+  <url>
+    <loc>http://njsuzukiworkshop.com/schedule/</loc>
+  </url>
+  <url>
+    <loc>http://njsuzukiworkshop.com/classes/</loc>
+  </url>
+  <url>
+    <loc>http://njsuzukiworkshop.com/register/assets/Registration-Form.pdf</loc>
+  </url>
+  <url>
+    <loc>http://njsuzukiworkshop.com/about/</loc>
+  </url>
+  <url>
+    <loc>http://njsuzukiworkshop.com/policy/</loc>
+  </url>
+</urlset>
