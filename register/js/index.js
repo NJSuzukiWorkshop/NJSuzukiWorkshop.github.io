@@ -38,4 +38,4 @@ function initializeClock(id, endtime) {
 }
 
 var endDate = new Date("July 7 2018 8:30:00 GMT-05:00");
-initializeClock("countdown-title", endDate);
+initializeClock("clockdiv", endDate);
