@@ -1,26 +1,41 @@
-const second = 1000,
-      minute = second * 60,
-      hour = minute * 60,
-      day = hour * 24;
+function getTimeRemaining(endtime) {
+  var t = Date.parse(endtime) - Date.parse(new Date());
+  var seconds = Math.floor((t / 1000) % 60);
+  var minutes = Math.floor((t / 1000 / 60) % 60);
+  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+  var days = Math.floor(t / (1000 * 60 * 60 * 24));
+  return {
+    "total": t,
+    "days": days,
+    "hours": hours,
+    "minutes": minutes,
+    "seconds": seconds
+  };
+}
 
-let countDown = new Date("July 7, 2018 00:00:00").getTime(),
-    x = setInterval(function() {
+function initializeClock(id, endtime) {
+  var clock = document.getElementById(id);
+  var daysSpan = clock.querySelector("#days");
+  var hoursSpan = clock.querySelector("#hours");
+  var minutesSpan = clock.querySelector("#minutes");
+  var secondsSpan = clock.querySelector("#seconds");
+  
+  function updateClock() {
+    var t = getTimeRemaining(endtime);
+    
+    daysSpan.innerHTML = t.days;
+    hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
+    minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
+    secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
+    
+    if (t.total <= 0) {
+      clearInterval(timeinterval);
+    }
+  }
+  
+  updateClock();
+  var timeinterval = setInterval(updateClock, 1000);
+}
 
-      let now = new Date().getTime(),
-          distance = countDown - now;
-
-      document.getElementById("days").innerHTML = Math.floor(distance / (day)),
-      document.getElementById("hours").innerHTML = Math.floor((distance % (day)) / (hour)),
-      document.getElementById("minutes").innerHTML = Math.floor((distance % (hour)) / (minute)),
-      document.getElementById("seconds").innerHTML = Math.floor((distance % (minute)) / second);
-
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("days").innerHTML = "0",
-          document.getElementById("hours").innerHTML = "0",
-          document.getElementById("minutes").innerHTML = "0",
-          document.getElementById("seconds").innerHTML = "0",
-          document.getElementById("countdown-title").innerHTML = "The Workshop is Over";
-      }
-
-    }, second)
+var endDate = new Date("July 7 2018 8:30:00 GMT-05:00");
+initializeClock("countdown-title", endDate);
