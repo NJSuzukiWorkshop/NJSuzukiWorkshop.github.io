@@ -2,6 +2,7 @@
   margin: 1em 0;
   min-width: 300px;
   border-collapse: collapse;
+  width: 100%;
 }
 .rwd-table tbody tr:nth-of-type(odd) {
   background: #841538;
