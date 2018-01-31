@@ -16,6 +16,8 @@ var raycaster = new THREE.Raycaster();
 var mouse = new THREE.Vector2();
 var intersected;
 
+var manager = new THREE.LoadingManager();
+
 init();
 animate();
 
@@ -36,6 +38,7 @@ function init()
         renderer = new THREE.WebGLRenderer( { antialias:true, alpha: true } );
     else
         renderer = new THREE.CanvasRenderer();
+    renderer.setPixelRatio( window.devicePixelRatio );
     renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
     renderer.shadowMap.enabled = true;
     renderer.shadowMap.type = THREE.PCFSoftShadowMap;
@@ -83,19 +86,19 @@ function init()
     // CUSTOM //
     ////////////
     
-    var violinLoader = new THREE.JSONLoader();
+    var violinLoader = new THREE.JSONLoader(manager);
     violinLoader.load( "models/violin.js", addViolinToScene );
     
-    var violaLoader = new THREE.JSONLoader();
+    var violaLoader = new THREE.JSONLoader(manager);
     violaLoader.load( "models/viola.js", addViolaToScene );
     
-    var celloLoader = new THREE.JSONLoader();
+    var celloLoader = new THREE.JSONLoader(manager);
     celloLoader.load( "models/cello.js", addCelloToScene );
   
-    var bassLoader = new THREE.JSONLoader();
+    var bassLoader = new THREE.JSONLoader(manager);
     bassLoader.load( "models/bass.js", addBassToScene );
   
-    var pianoLoader = new THREE.JSONLoader();
+    var pianoLoader = new THREE.JSONLoader(manager);
     pianoLoader.load( "models/piano.js", addPianoToScene );
     // when the mouse moves, call the given function
     document.addEventListener( 'mousemove', onDocumentMouseMove, false );
@@ -229,6 +232,11 @@ function onDocumentMouseDown( event )
     {
         window.open(intersections[0].object.userData.URL, "_self");
     }
+}
+
+manager.onLoad = function()
+{
+    container.dataset.loaded = "yes";
 }
 
 var ticking = false;
