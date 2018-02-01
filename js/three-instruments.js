@@ -40,8 +40,6 @@ function init()
         renderer = new THREE.CanvasRenderer();
     renderer.setPixelRatio( window.devicePixelRatio );
     renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
-    renderer.shadowMap.enabled = true;
-    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     container = document.getElementById( 'ThreeInstruments' );
     container.appendChild( renderer.domElement );
     // EVENTS
@@ -53,6 +51,7 @@ function init()
     controls.enableZoom = false;
     controls.enablePan = false;
     controls.autoRotate = true;
+  controls.autoRotateSpeed = 1;
     controls.maxPolarAngle = Math.PI - Math.acos(39.9929/200);
     controls.minPolarAngle = 1/9 * Math.PI;
     // LIGHT
@@ -67,20 +66,18 @@ function init()
     scene.add(light3);
     var light4 = new THREE.PointLight(0xffffff,1);
     light4.position.set(0,150,0);
-    light4.castShadow = true;
     scene.add(light4);
     var light5 = new THREE.PointLight(0xffffff,4);
     light5.position.set(22.703,48.3787,-83.9535);
     scene.add(light5);
     //FLOOR
-    var floorMaterial = new THREE.ShadowMaterial({ side: THREE.DoubleSide });
-    floorMaterial.opacity = 0.1;
-    //var floorMaterial = new THREE.MeshStandardMaterial( { color: 0x00ff00 } )
-    var floorGeometry = new THREE.PlaneGeometry(500, 500, 10, 10);
+    var floorTexture = new THREE.TextureLoader().load( 'img/shadows.png' );
+    var floorMaterial = new THREE.MeshBasicMaterial( { map: floorTexture } );
+    floorMaterial.opacity = 0.8;
+    var floorGeometry = new THREE.PlaneGeometry(244.771, 244.771, 10, 10);
     var floor = new THREE.Mesh(floorGeometry, floorMaterial);
     floor.rotation.x = -Math.PI / 2;
     floor.position.y = -39.9929;
-    floor.receiveShadow = true;
     scene.add(floor);
     ////////////
     // CUSTOM //
@@ -112,7 +109,6 @@ function addViolinToScene( geometry, materials )
     violin.position.set(-50.9649,0,-20.2596+4.218475);
     violin.rotation.set(0,Math.PI,0)
     violin.scale.set(1,1,1);
-    violin.castShadow = true;
     violin.userData = { URL: "violin/"};
     scene.add( violin );
 }
@@ -124,7 +120,6 @@ function addViolaToScene( geometry, materials )
     viola.position.set(-31.5739,0,-20.2596+4.218475);
     viola.rotation.set(0,Math.PI,0);
     viola.scale.set(1,1,1);
-    viola.castShadow = true;
     viola.userData = { URL: "viola/"};
     scene.add( viola );
 }
@@ -136,7 +131,6 @@ function addCelloToScene( geometry, materials )
     cello.position.set(-4.50507,0,-20.2596+4.218475);
     cello.rotation.set(0,Math.PI,0);
     cello.scale.set(1,1,1);
-    cello.castShadow = true;
     cello.userData = { URL: "cello/"};
     scene.add( cello );
 }
@@ -148,7 +142,6 @@ function addBassToScene( geometry, materials )
   bass.position.set(36.2411,-2.54195,-20.2596+4.218475);
   bass.rotation.set(0,Math.PI,0);
   bass.scale.set(1,1,1);
-  bass.castShadow = true;
   bass.userData = { URL: "bass/"};
   scene.add( bass );
 }
@@ -159,7 +152,6 @@ function addPianoToScene( geometry, materials )
     piano = new THREE.Mesh( geometry, pianoMaterial );
     piano.position.set(0,-6.89087,9.53965+4.218475);
     piano.scale.set(1,1,1);
-    piano.castShadow = true;
     piano.userData = { URL: "piano/"};
     scene.add( piano );
 }

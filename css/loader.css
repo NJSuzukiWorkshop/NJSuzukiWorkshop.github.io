@@ -1,9 +1,4 @@
 #ThreeInstruments {
-  position: relative;
-}
-
-/* Static placeholder image. Hidden via javascript when the 3D truck is loaded. */
-#ThreeInstruments:after {
   position: absolute;
   top: 0;
   left: 0;
@@ -12,22 +7,24 @@
   height: 100vh;
   content: "";
   opacity: 1;
-  background-image: url("../img/canvas-static.png");
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: auto 100%;
   margin: 0 auto;
 }
-
-#ThreeInstruments * {
-  opacity: 0;
-}
-
 
 #ThreeInstruments[data-loaded="yes"] * {
   opacity: 1;
 }
 
-#ThreeInstruments[data-loaded="yes"]:after {
-  display: none;
+#ThreeInstruments[data-loaded="yes"] {
+  background-image: none;
+}
+
+#ThreeInstruments[data-loaded="no"] *, #ThreeInstruments[data-loaded="never"] * {
+  opacity: 0;
+}
+
+#ThreeInstruments[data-loaded="no"], #ThreeInstruments[data-loaded="never"] {
+  background-image: url("../img/canvas-static.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: auto 100%;
 }
