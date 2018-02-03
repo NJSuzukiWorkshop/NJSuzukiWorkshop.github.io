@@ -246,7 +246,9 @@ window.addEventListener('scroll', function(e) {
 
 function animate()
 {
-    requestAnimationFrame( animate );
+    setTimeout( function() {
+        requestAnimationFrame( animate );
+    }, 1000 / 30 );
     render();
 }
 
