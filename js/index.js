@@ -14,15 +14,15 @@ fade($('.quoteLoop > .quote').first());
 /*----------------------------------------------------*/
 /* Navigation
 ------------------------------------------------------ */
-
-$(window).scroll(function() {
-
-    if ($(window).scrollTop() > 300) {
-        $('.main_nav').addClass('sticky');
-    } else {
-        $('.main_nav').removeClass('sticky');
-    }
-});
+if (!document.getElementsByClassName("main_nav")[0].hasAttribute("data-always-sticky")) {
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 300) {
+            $('.main_nav').addClass('sticky');
+        } else {
+            $('.main_nav').removeClass('sticky');
+        }
+    });
+}
 
 // Mobile Navigation
 $('.mobile-toggle').click(function() {
