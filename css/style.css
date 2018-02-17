@@ -276,7 +276,10 @@ header {
 
 @media only screen and (max-height: 700px) {
 .title h1 {
-	font-size: 80px;
+  font-size: 80px;
+}
+.title h1 {
+  font-size: 50px;
 }
 }
 .title p {
