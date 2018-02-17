@@ -289,6 +289,9 @@ header {
 .title h1 {
 	font-size: 65px;
 }
+.title h1 {
+  font-size: 35px;
+}
 }
 .title .icon {
 	color: #FFFFFF;
