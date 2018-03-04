@@ -5,7 +5,7 @@
   width: 100%;
 }
 .rwd-table tbody tr:nth-of-type(odd) {
-  background: #841538;
+  background: #333c4f;
 }
 .rwd-table th {
   display: none;
@@ -46,8 +46,8 @@
   }
 }
 .rwd-table {
-  background: #126c87;
-  color: #fff;
+  background: #2C3446;
+  color: #4DC3FA;
   border-radius: .4em;
   overflow: hidden;
 }
@@ -60,5 +60,8 @@
   }
 }
 .rwd-table th, .rwd-table td:before {
-  color: #ffd54f;
+  color: #FB667A;
+}
+.rwd-column {
+  color: #FFF842;
 }
