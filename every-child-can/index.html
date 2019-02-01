@@ -31,6 +31,20 @@
 </head>
 
 <body>
+    
+<!-- Modal Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div id="modalOne" class="modal">
+  <div class="modal-content">
+    <div class="contact-form">
+      <a class="close">&times;</a>
+      <h2>Joan Krzywicki, Piano, Every Child Can!&copy; Course</h2>
+      <p>Joan Krzywicki earned a Bachelor of Music Education Degree from Indiana University in Bloomington, IN, where she carried a second major in Piano Performance. She studied piano there with Abbey Simon. She also has a Master's Degree from Youngstown State University in Ohio. Joan became an official Teacher Trainer for the Suzuki Association of the Americas in 1993. She maintains a private studio in her home and offers teacher training at Temple University in Philadelphia. Joan is also nationally certified by the Music Teachers National Association.</p> 
+      <p>She has been a guest clinician and teacher trainer at workshops and Institutes in the U.S., Canada, England, Sweden, and Argentina. Joan is serving as Chair of the Board of Directors of the Suzuki Association of the Americas. She is also a Past President of the Philadelphia Music Teachers Association and the Greater Philadelphia Suzuki Association.</p>
+    </div>
+  </div>
+</div>
 
   <!-- Header Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -61,33 +75,35 @@
 <section id="section1">
   <div class="container">
     <div class="row">
-      <h1>Every Child Can!&copy; An Introduction to the Suzuki Approach with Nancy Modell</h1>
+      <div class="row">
+        <div class="eight columns">
+          <h1>Every Child Can!&copy; An Introduction to the Suzuki Approach with Joan Krzywicki</h1>
+        </div>
+        <div class="four columns">
+          <img src="img/joan-krzywicki.jpg" class="shadow-card button" data-modal="modalOne" alt=""/>
+        <h4 class="button" data-modal="modalOne">Joan Krzywicki</h4>
+        </div>
+      </div>
       <div class="block"></div>
-      <p>For teachers and parents: We are excited that you may begin your Suzuki training journey or review the
-      foundations of the Suzuki Philosophy with us.</p>
-      <p>After completing ECC!&copy;, plan to join us on Sunday to observe our clinicians teach violin, cello, bass, and piano.
-      Come and join in the fun!</p>
+		  <p>For teachers and parents: We are excited that you may begin your Suzuki training journey or review the foundations of the Suzuki Philosophy with us.</p>
+		  <p>After completing ECC!&copy;, join us on Sunday to observe our clinicians teach violin, viola, cello, and piano. Come and join in the fun!</p>
       <img src="img/NJSW_ECC_Poster.png" width="100%">
       <div class="row">
-        <p>Every Child Can!&copy; is a one-day introduction to the Suzuki philosophy and its application to
-        education. This class is designed for parents, teachers, prospective teachers, and other
-        interested adults. The course provides an inspiring, in-depth look at the Suzuki approach to
-        teaching and learning. For teachers, ECC!&copy; serves as the first course in the Suzuki
-        Association of the Americas Teacher Development program.</p>
+        <p>Every Child Can!&copy; is a one-day introduction to the Suzuki philosophy and its application to education. This class is designed for teachers, prospective teachers, and other interested adults. The course provides an inspiring, in-depth look at the Suzuki approach to teaching and learning. For teachers, ECC!&copy; serves as the first course in the Suzuki Association of the Americas Teacher Development program.</p>
       </div>
       <div class="row">
         <div class="six columns">
-          <h3>Saturday, July 7, 2018 from 1:00 - 7:15 PM</h3>
-          <p style="margin-bottom: 0;">The Lawrenceville School, 2500 Main Street, Lawrenceville, NJ</p>
-          <p>For more information on the location, look <a href="/about#section4">here</a>.</p>
+          <h3>Saturday, July 20, 2019 from 9:30 AM - 4:15 PM</h3>
+          <p style="margin-bottom: 0;">The College of New Jersey, Mayo Performing Arts Center, Ewing, NJ</p>
+          <p>You will <a href="/about#section4">find more information on the location here</a>.</p>
         </div>
         <div class="six columns">
           <h3>Contact Information</h3>
-          <p>Email <a href="mailto:n.modell.suzukipiano@gmail.com">n.modell.suzukipiano@gmail.com</a> for more information.</p>
+          <p>Email Joan Krzywicki at <a href="mailto:jlkpiano@aol.com?subject=About%20the%20Every%20Child%20Can&copy;%20course">jlkpiano@aol.com</a> with questions about the course.</p>
         </div>
       </div>
       <div class="row">
-        <h4>Please bring a bag supper and any snacks/drinks you may need during the day. $134, includes materials fee.</h4>
+        <h4>Please bring a bag lunch and any snacks/drinks you may need during the day. The $129 fee includes all materials.</h4>
       </div>
     </div>
   </div>
@@ -100,11 +116,11 @@
     </div>
     <div class="row">
       <h3>Register Online</h3>
-      <a href="https://gpsasuzuki.org/product/register-ecc-course-njsw/" class="register-button light-shadow">Click to Register!</a>
+      <a href="#" class="register-button light-shadow">Coming Soon!</a>
     </div>
     <div class="row">
       <h3 id="by-mail">Register by Mail</h3>
-      <p>Click <a href="assets/Registration-Form-ECC.pdf" download>here</a> for a printable registration form.</p>
+      <p>You can download <a href="assets/Registration-Form-ECC.pdf" download>our printable registration form.</p>
     </div>
   </div>
 </section>
@@ -125,6 +141,7 @@
 
     <script src="../js/jquery.min.js"></script>
 
+    <script  src="js/index.js"></script>
     <script  src="../js/index.js"></script>
 
 </body>
