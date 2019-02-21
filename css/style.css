@@ -203,10 +203,10 @@ p {
 /* Links
 ********************************************************************* */
 a {
-	color: #1EAEDB;
+	color: #339966;
 }
 a:hover {
-	color: #0FA0CE;
+	color: #cc6600;
 }
 /* Header Section
 ********************************************************************* */
@@ -222,11 +222,11 @@ header {
 	justify-content: center;
     width: 100%;
 	height: 100vh;
-	background: #e55d87;
-	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+	background: #339966;
+	background: -moz-linear-gradient(-45deg, #ffcc33 0%, #339966 100%);
+	background: -webkit-linear-gradient(-45deg, #ffcc33 0%, #339966 100%);
+	background: linear-gradient(135deg, #ffcc33 0%, #339966 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc33', endColorstr='#339966', GradientType=1 );
 }
 .title {
 	-webkit-align-self: center;
@@ -400,7 +400,7 @@ nav ul a {
 	text-decoration: none;
 }
 nav ul a:hover {
-	color: #CFCFCF;
+	color: #cc6600;
 }
 .mobile-toggle {
 	display: none;
@@ -537,10 +537,10 @@ opacity: 0;
 .progressBarValue {
 	height: 8px;
 	float: left;
-	background: #e55d87; /* Old browsers */
-	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+	background: #339966; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #ffcc33 0%, #339966 100%);
+	background: -webkit-linear-gradient(-45deg, #ffcc33 0%, #339966 100%);
+	background: linear-gradient(135deg, #ffcc33 0%, #339966 100%);
 }
 .value-00 {
 	width: 0;
@@ -644,14 +644,15 @@ input[type="submit"] {
 	text-transform: uppercase;
 	text-decoration: none;
 	white-space: nowrap;
-	background: #5fc3e4;
+	background: #339966;
 	border-radius: 0px;
 	border: 0;
 	cursor: pointer;
 	box-sizing: border-box;
 }
 input[type="submit"]:hover {
-	background: #e55d87;
+	background: #ffcc33;
+	color: #444;
 	text-decoration: none;
 }
 /* Footer Section
@@ -659,17 +660,24 @@ input[type="submit"]:hover {
 footer {
 	min-height: 120px;
 	padding: 40px 0 40px 0;
-	background: #e55d87;
-	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+	background: #339966;
+	background: -moz-linear-gradient(-45deg, #ffcc33 0%, #339966 100%);
+	background: -webkit-linear-gradient(-45deg, #ffcc33 0%, #339966 100%);
+	background: linear-gradient(135deg, #ffcc33 0%, #339966 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc33', endColorstr='#339966', GradientType=1 );
 	box-sizing: border-box;
 }
 footer p {
 	color: #FFFFFF;
 	margin: 20px 0 0 0;
 }
+footer a {
+	color: #fff;
+}
+footer a:hover {
+	color: #444;
+}
+
 .socialIcons {
 	font-size: 34px;
 	color: rgba(255, 255, 255, 0.7);
@@ -737,10 +745,10 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 .block {
 	width: 70px;
 	height: 2px;
-	background: #e55d87; /* Old browsers */
-	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+	background: #339966; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #ffcc33 0%, #339966 100%);
+	background: -webkit-linear-gradient(-45deg, #ffcc33 0%, #339966 100%);
+	background: linear-gradient(135deg, #ffcc33 0%, #339966 100%);
 	margin-bottom: 50px;
 }
 .medium-shadow {
