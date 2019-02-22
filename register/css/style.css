@@ -16,11 +16,11 @@
 }
 
 .register-button {
-  background: #e55d87;
-  background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-  background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-  background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+  background: #339966;
+  background: -moz-linear-gradient(-45deg, #ffcc33 0%, #339966 100%);
+  background: -webkit-linear-gradient(-45deg, #ffcc33 0%, #339966 100%);
+  background: linear-gradient(135deg, #ffcc33 0%, #339966 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc33', endColorstr='#339966', GradientType=1 );
   border: none;
   color: white;
   padding: 15px 32px;
@@ -28,6 +28,10 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  font-weight: bold;
+  margin: 4px 2px 24px;
   cursor: pointer;
+}
+a.register-button:hover {
+	color: #444;
 }
