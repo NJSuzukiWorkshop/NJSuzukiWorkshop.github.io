@@ -128,6 +128,7 @@ tr th {
   padding: 4px 9px;
   border: 1px solid #fff;
   text-align: left; /* LTR */
+  width: 11.11%;
 }
 #footer-wrapper tr td,
 #footer-wrapper tr th {
