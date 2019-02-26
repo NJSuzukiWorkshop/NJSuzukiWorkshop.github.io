@@ -228,10 +228,11 @@ header {
 	background: linear-gradient(135deg, #ffcc33 0%, #339966 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc33', endColorstr='#339966', GradientType=1 );
 }
+.title .home-page-hero {
+	max-width: 66%;
+	margin-top: 0.5rem;
+}
 .title {
-	-webkit-align-self: center;
-	-ms-flex-item-align: center;
-	align-self: center;
 	padding: 2rem;
 	max-width: 960px;
 	text-align: center;
