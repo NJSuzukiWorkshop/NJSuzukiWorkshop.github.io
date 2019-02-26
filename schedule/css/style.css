@@ -94,6 +94,9 @@
         padding: 0;
     }
 }
+.row {
+	margin-top: 1em;
+}
 /* ------------------- Table Styles ----------------------- */
 
 table {
