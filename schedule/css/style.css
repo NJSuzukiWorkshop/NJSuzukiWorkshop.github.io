@@ -124,7 +124,7 @@ table tr th a:hover {
   font-weight: bold;
 }
 table tbody tr th {
-  vertical-align: top;
+  vertical-align: center;
 }
 tr td,
 tr th {
