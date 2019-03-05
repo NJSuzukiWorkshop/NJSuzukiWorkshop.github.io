@@ -1,121 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>http://njsuzukiworkshop.com/</loc>
+    <loc>https://njsuzukiworkshop.com/</loc>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/img/play-in-3.jpg</image:loc>
-        <image:title>Play-In</image:title>
+        <image:loc>https://njsuzukiworkshop.com/img/njsw_home_page.jpg</image:loc>
+        <image:title>Happy participants from last year's workshop</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/img/cello-group-class.jpg</image:loc>
-        <image:title>Cello Group Class</image:title>
+        <image:loc>https://njsuzukiworkshop.com/img/saturday_play-in_1039.jpg</image:loc>
+        <image:title>Two young girls at the piano</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/img/piano-master-class-2.jpg</image:loc>
-        <image:title>Piano Master Class</image:title>
+        <image:loc>https://njsuzukiworkshop.com/img/saturday_play-in_1055.jpg</image:loc>
+        <image:title>Two young boys at the piano</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/img/piano-master-class-3.jpg</image:loc>
-        <image:title>Piano Master Class</image:title>
+        <image:loc>https://njsuzukiworkshop.com/img/saturday_play-in_1045.jpg</image:loc>
+        <image:title>Three young students enjoying class</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/img/piano-master-class.jpg</image:loc>
-        <image:title>Piano Master Class</image:title>
+        <image:loc>https://njsuzukiworkshop.com/img/saturday_play-in_1118.jpg</image:loc>
+        <image:title>Three young students intently playing their cellos</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/img/play-in-2.jpg</image:loc>
-        <image:title>Play-In</image:title>
+        <image:loc>https://njsuzukiworkshop.com/img/saturday_play-in_1135.jpg</image:loc>
+        <image:title>A young student with a happy smile playing her cello</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/img/play-in.jpg</image:loc>
-        <image:title>Play-In</image:title>
+        <image:loc>https://njsuzukiworkshop.com/img/saturday_play-in_1151.jpg</image:loc>
+        <image:title>A young cellist intently listening to the instructor</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/img/pretwinkle-class.jpg</image:loc>
-        <image:title>Pre-Twinkle Class</image:title>
+        <image:loc>https://njsuzukiworkshop.com/img/saturday_play-in_1218.jpg</image:loc>
+        <image:title>Two young violinists smiling at each other as they play</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/img/violin-group-class-2.jpg</image:loc>
-        <image:title>Violin Group Class</image:title>
+        <image:loc>https://njsuzukiworkshop.com/img/sunday_concert_1387.jpg</image:loc>
+        <image:title>A group of young violinists stand poised, waiting for their next instruction</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/img/violin-group-class.jpg</image:loc>
-        <image:title>Violin Group Class</image:title>
+        <image:loc>https://njsuzukiworkshop.com/img/sunday_concert_1244.jpg</image:loc>
+        <image:title>Three young cellists intently watching their instructor</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/img/violin-masterclass.jpg</image:loc>
-        <image:title>Violin Master Class</image:title>
+        <image:loc>https://njsuzukiworkshop.com/img/sunday_concert_1260.jpg</image:loc>
+        <image:title>A group of young violinists playing pizzicato</image:title>
       </image:image>
   </url>
   <url>
-    <loc>http://njsuzukiworkshop.com/contact/</loc>
+    <loc>https://njsuzukiworkshop.com/contact/</loc>
   </url>
   <url>
-    <loc>http://njsuzukiworkshop.com/staff/</loc>
+    <loc>https://njsuzukiworkshop.com/staff/</loc>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/staff/img/william-bauer.jpg</image:loc>
+        <image:loc>https://njsuzukiworkshop.com/staff/img/william-bauer.jpg</image:loc>
         <image:title>William Bauer</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/staff/img/carlough-carrol.jpg</image:loc>
+        <image:loc>https://njsuzukiworkshop.com/staff/img/carlough-carrol.jpg</image:loc>
         <image:title>Carlough Carrol</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/staff/img/kathy-mchugh.jpg</image:loc>
+        <image:loc>https://njsuzukiworkshop.com/staff/img/kathy-mchugh.jpg</image:loc>
         <image:title>Kathy Mchugh</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/staff/img/beth-guerriero.jpg</image:loc>
+        <image:loc>https://njsuzukiworkshop.com/staff/img/beth-guerriero.jpg</image:loc>
         <image:title>Beth Guerriero</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/staff/img/abigail-grifa.jpg</image:loc>
+        <image:loc>https://njsuzukiworkshop.com/staff/img/abigail-grifa.jpg</image:loc>
         <image:title>Abigail Grifa</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/staff/img/nancy-modell.jpg</image:loc>
+        <image:loc>https://njsuzukiworkshop.com/staff/img/nancy-modell.jpg</image:loc>
         <image:title>Nancy Modell</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/staff/img/rebekah-waggoner.jpg</image:loc>
+        <image:loc>https://njsuzukiworkshop.com/staff/img/rebekah-waggoner.jpg</image:loc>
         <image:title>Rebekah Waggoner</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://njsuzukiworkshop.com/staff/img/heather-lardin.jpg</image:loc>
+        <image:loc>https://njsuzukiworkshop.com/staff/img/heather-lardin.jpg</image:loc>
         <image:title>Heather Lardin</image:title>
       </image:image>
   </url>
   <url>
-    <loc>http://njsuzukiworkshop.com/teacher-opportunities/</loc>
+    <loc>https://njsuzukiworkshop.com/teacher-opportunities/</loc>
   </url>
   <url>
-    <loc>http://njsuzukiworkshop.com/register/</loc>
+    <loc>https://njsuzukiworkshop.com/register/</loc>
   </url>
   <url>
-    <loc>http://njsuzukiworkshop.com/schedule/</loc>
+    <loc>https://njsuzukiworkshop.com/schedule/</loc>
   </url>
   <url>
-    <loc>http://njsuzukiworkshop.com/classes/</loc>
+    <loc>https://njsuzukiworkshop.com/classes/</loc>
   </url>
   <url>
-    <loc>http://njsuzukiworkshop.com/register/assets/Registration-Form.pdf</loc>
+    <loc>https://njsuzukiworkshop.com/register/assets/NJ%20Suzuki%20Workshop%202019%20-%20Printable%20Registration.pdf</loc>
   </url>
   <url>
-    <loc>http://njsuzukiworkshop.com/about/</loc>
+    <loc>https://njsuzukiworkshop.com/about/</loc>
   </url>
   <url>
-    <loc>http://njsuzukiworkshop.com/policy/</loc>
+    <loc>https://njsuzukiworkshop.com/repertoire/</loc>
   </url>
   <url>
-    <loc>http://njsuzukiworkshop.com/bass/</loc>
-  </url>
-  <url>
-    <loc>http://njsuzukiworkshop.com/violin/</loc>
-  </url>
-  <url>
-    <loc>http://njsuzukiworkshop.com/viola/</loc>
-  </url>
-  <url>
-    <loc>http://njsuzukiworkshop.com/cello/</loc>
+    <loc>https://njsuzukiworkshop.com/policy/</loc>
   </url>
 </urlset>
