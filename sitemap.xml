@@ -48,17 +48,30 @@
       </image:image>
   </url>
   <url>
-    <loc>https://njsuzukiworkshop.com/contact/</loc>
+    <loc>https://njsuzukiworkshop.com/about/</loc>
+  </url>
+  <url>
+    <loc>https://njsuzukiworkshop.com/repertoire/</loc>
+  </url>
+  <url>
+    <loc>https://njsuzukiworkshop.com/classes/</loc>
+  </url>
+  <url>
+    <loc>https://njsuzukiworkshop.com/schedule/</loc>
   </url>
   <url>
     <loc>https://njsuzukiworkshop.com/staff/</loc>
       <image:image>
-        <image:loc>https://njsuzukiworkshop.com/staff/img/william-bauer.jpg</image:loc>
-        <image:title>William Bauer</image:title>
+        <image:loc>https://njsuzukiworkshop.com/staff/img/njsw_co-directors.jpg</image:loc>
+        <image:title>Director Louise McClure and Assistant Director Amy Zakar</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://njsuzukiworkshop.com/staff/img/john-krumm.jpg</image:loc>
+        <image:title>John Krumm</image:title>
       </image:image>
       <image:image>
         <image:loc>https://njsuzukiworkshop.com/staff/img/carlough-carrol.jpg</image:loc>
-        <image:title>Carlough Carrol</image:title>
+        <image:title>Carlough Faulkner-Carroll</image:title>
       </image:image>
       <image:image>
         <image:loc>https://njsuzukiworkshop.com/staff/img/kathy-mchugh.jpg</image:loc>
@@ -66,11 +79,11 @@
       </image:image>
       <image:image>
         <image:loc>https://njsuzukiworkshop.com/staff/img/beth-guerriero.jpg</image:loc>
-        <image:title>Beth Guerriero</image:title>
+        <image:title>Beth Guerriero Ph.D.</image:title>
       </image:image>
       <image:image>
         <image:loc>https://njsuzukiworkshop.com/staff/img/abigail-grifa.jpg</image:loc>
-        <image:title>Abigail Grifa</image:title>
+        <image:title>Abigail McHugh-Grifa</image:title>
       </image:image>
       <image:image>
         <image:loc>https://njsuzukiworkshop.com/staff/img/nancy-modell.jpg</image:loc>
@@ -81,32 +94,30 @@
         <image:title>Rebekah Waggoner</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://njsuzukiworkshop.com/staff/img/heather-lardin.jpg</image:loc>
-        <image:title>Heather Lardin</image:title>
+        <image:loc>https://njsuzukiworkshop.com/staff/img/jennifer-stomberg.jpg</image:loc>
+        <image:title>Jennifer Stomberg</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://njsuzukiworkshop.com/teacher-opportunities/</loc>
   </url>
   <url>
+    <loc>https://njsuzukiworkshop.com/every-child-can/</loc>
+      <image:image>
+        <image:loc>https://njsuzukiworkshop.com/every-child-can/img/joan-krzywicki.jpg</image:loc>
+        <image:title>Joan Krzywicki</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://njsuzukiworkshop.com/policy/</loc>
+  </url>
+  <url>
     <loc>https://njsuzukiworkshop.com/register/</loc>
-  </url>
-  <url>
-    <loc>https://njsuzukiworkshop.com/schedule/</loc>
-  </url>
-  <url>
-    <loc>https://njsuzukiworkshop.com/classes/</loc>
   </url>
   <url>
     <loc>https://njsuzukiworkshop.com/register/assets/NJ%20Suzuki%20Workshop%202019%20-%20Printable%20Registration.pdf</loc>
   </url>
   <url>
-    <loc>https://njsuzukiworkshop.com/about/</loc>
-  </url>
-  <url>
-    <loc>https://njsuzukiworkshop.com/repertoire/</loc>
-  </url>
-  <url>
-    <loc>https://njsuzukiworkshop.com/policy/</loc>
+    <loc>https://njsuzukiworkshop.com/contact/</loc>
   </url>
 </urlset>
