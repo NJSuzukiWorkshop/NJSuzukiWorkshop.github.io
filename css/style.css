@@ -373,7 +373,8 @@ header {
 
 @media only screen and (max-width: 804px) {
 	.main_nav {
-		padding-top: 25px;
+		max-height: 40px;
+		padding-top: 15px;
 	}
 }
 .open-nav {
@@ -422,7 +423,7 @@ nav ul li {
 	margin: 0;
 }
 nav ul li:first-child {
-	margin-top: 70px;
+	margin-top: 35px;
 }
 }
 nav ul a {
