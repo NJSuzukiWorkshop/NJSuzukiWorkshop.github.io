@@ -97,3 +97,15 @@
 .row {
 	margin-top: 1em;
 }
+
+@media only print {
+	h1 {
+		font-size: 3.33rem;
+	}
+	h2 {
+		font-size: 2.5rem;
+	}
+	h1, h2, h3 {
+		margin: 0.5rem 0;
+	}
+}
