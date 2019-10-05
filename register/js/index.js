@@ -37,5 +37,5 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var endDate = new Date("July 20 2020 8:30:00 GMT-05:00");
+var endDate = new Date("July 11 2020 8:30:00 GMT-05:00");
 initializeClock("clockdiv", endDate);
