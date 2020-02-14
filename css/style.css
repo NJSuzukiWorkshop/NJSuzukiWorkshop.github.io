@@ -851,3 +851,95 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 .light-shadow {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
+/* Every Child Can */
+.shadow-card {
+  width:220px;
+  height:220px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.shadow-card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.button {
+    cursor: pointer;
+}
+
+/* Popup Box */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 8888; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10vh auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button.button {
+    background:none;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom:#02274a 1px solid;
+    padding:0 0 3px 0;
+    font-size:16px;
+}
+
+button.button:hover {
+    border-bottom:#a99567 1px solid;
+    color:#a99567;
+}
+
+.register-button {
+  background: #339966;
+  background: -moz-linear-gradient(-45deg, #ffcc33 0%, #339966 100%);
+  background: -webkit-linear-gradient(-45deg, #ffcc33 0%, #339966 100%);
+  background: linear-gradient(135deg, #ffcc33 0%, #339966 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc33', endColorstr='#339966', GradientType=1 );
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px 24px;
+  cursor: pointer;
+}
+a.register-button:hover {
+	color: #444;
+}
