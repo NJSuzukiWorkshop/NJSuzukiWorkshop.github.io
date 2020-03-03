@@ -942,3 +942,9 @@ button.button:hover {
 a.register-button:hover {
 	color: #444;
 }
+
+/* Donate button */
+#paypal {
+    margin: 3rem 0 2rem 0;
+    text-align: center;
+}
