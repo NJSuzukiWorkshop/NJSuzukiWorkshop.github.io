@@ -458,10 +458,10 @@ nav ul a:hover {
 }
 #large_surface {
     position: absolute;
-    left: calc(50% - 25px);
-    bottom: 5vh;
-    height: 50px;
-    width: 50px;
+    left: calc(50% - 100px);
+    bottom: 2.5vh;
+    height: 100px;
+    width: 200px;
     background-color: transparent;
     z-index: 9;
     border-radius: 50%;
