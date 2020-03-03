@@ -948,3 +948,8 @@ a.register-button:hover {
     margin: 3rem 0 2rem 0;
     text-align: center;
 }
+
+#donate .six.columns img {
+	width: 100%;
+	max-width: 500px;
+}
