@@ -251,19 +251,16 @@ header {
 	margin-bottom: 30px;
 }
 .title h1 {
-	font-size: 80px;
+	font-size: 42px;
 	font-weight: 300;
 	text-transform: uppercase;
     font-weight: bold;
 	line-height: 0.93;
-	margin-bottom: 28px;
-	margin: 0;
+	margin: 0 0 20px 0;
 	padding: 0;
 	color: #FFFFFF;
     position: relative;
     z-index: 9;
-    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
-    /*text-shadow: 0px 3px 0px #7f8c8d;*/
     text-shadow: 0 1px 0 hsl(174,5%,80%),
                  0 2px 0 hsl(174,5%,75%),
                  0 3px 0 hsl(174,5%,70%),
@@ -280,20 +277,14 @@ header {
                  0 20px 20px rgba(0,0,0,.3);
 }
 
-.title h3 {
-  font-size: 50px;
+.title h2 {
+  font-size: 30px;
   font-weight: 300;
-  text-transform: uppercase;
-  /*line-height: 0.85;*/
-  margin-bottom: 28px;
-  margin-top: 5px;
-  margin: 0;
+  margin: 0 0 5px 0;
   padding: 0;
   color: #FFFFFF;
   position: relative;
   z-index: 9;
-  /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
-  /*text-shadow: 0px 3px 0px #7f8c8d;*/
   text-shadow: 0 1px 0 hsl(174,5%,85%),
                0 2px 0 hsl(174,5%,76%),
                0 3px 0 hsl(174,5%,72%),
@@ -304,27 +295,31 @@ header {
                0 16px 20px rgba(0,0,0,.3);
 }
 
-@media only screen and (max-height: 700px) {
-.title h1 {
-  font-size: 80px;
-}
-.title h1 {
-  font-size: 50px;
-}
-}
-.title p {
-	max-width: 600px;
-	margin: 0 auto;
-	line-height: 150%;
+@media only screen and (min-width: 2048px) {
+	.title h1 {
+	  font-size: 80px;
+	}
+	.title h2 {
+	  font-size: 50px;
+	}
+	.title p {
+	  font-size: 1.25em;
+	}
 }
 
 @media only screen and (max-width: 720px) {
 	.title h1 {
-		font-size: 42px;
 	}
-	.title h3 {
-	  font-size: 30px;
+	.title h2 {
 	}
+}
+.title p {
+	color: #fff;
+	font-weight: bold;
+	line-height: 1.5;
+	margin: 0 auto 1.5em auto;
+	text-align: left;
+	max-width: 80%;
 }
 .title .icon {
 	color: #FFFFFF;
