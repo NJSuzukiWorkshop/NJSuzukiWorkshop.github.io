@@ -251,7 +251,7 @@ header {
 	margin-bottom: 30px;
 }
 .title h1 {
-	font-size: 42px;
+	font-size: 24px;
 	font-weight: 300;
 	text-transform: uppercase;
     font-weight: bold;
@@ -278,8 +278,9 @@ header {
 }
 
 .title h2 {
-  font-size: 30px;
+  font-size: 15px;
   font-weight: 300;
+  line-height: 0.93;
   margin: 0 0 5px 0;
   padding: 0;
   color: #FFFFFF;
@@ -295,7 +296,25 @@ header {
                0 16px 20px rgba(0,0,0,.3);
 }
 
-@media only screen and (min-width: 2048px) {
+@media only screen and (min-width: 756px) {
+	.title h1 {
+		font-size: 32px;
+	}
+	.title h2 {
+  		font-size: 20px;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	.title h1 {
+		font-size: 48px;
+	}
+	.title h2 {
+  		font-size: 30px;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
 	.title h1 {
 	  font-size: 80px;
 	}
@@ -307,19 +326,26 @@ header {
 	}
 }
 
-@media only screen and (max-width: 720px) {
-	.title h1 {
-	}
-	.title h2 {
-	}
-}
 .title p {
 	color: #fff;
 	font-weight: bold;
-	line-height: 1.5;
-	margin: 0 auto 1.5em auto;
+	line-height: 1.2;
+	margin: 0 auto 1.2em auto;
 	text-align: left;
 	max-width: 80%;
+}
+
+@media only screen and (max-width: 320px) {
+	.title p {
+		font-size: 0.83em;
+		margin: 0 auto 1em auto;
+	}
+}
+.title a:link, .title a:visited {
+	color: #ffffff;
+}
+.title a:focus, .title a:hover {
+	color: #ffff66;
 }
 .title .icon {
 	color: #FFFFFF;
