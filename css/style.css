@@ -319,15 +319,9 @@ header {
 	.title h2 {
   		font-size: 20px;
 	}
-	.title p {
-		max-width: 80%;
-	}
-	.title .home-page-hero {
-		max-width: 80%;
-	}
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1281px) {
 	.title h1 {
 		font-size: 48px;
 	}
@@ -336,7 +330,7 @@ header {
 	}
 }
 
-@media only screen and (min-width: 2048px) {
+@media only screen and (min-width: 2049px) {
 	.title h1 {
 	  font-size: 80px;
 	}
